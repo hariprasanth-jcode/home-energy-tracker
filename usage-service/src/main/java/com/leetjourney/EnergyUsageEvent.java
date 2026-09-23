@@ -1,4 +1,4 @@
-package com.leetjourney.usage_service.kafka.event;
+package com.leetjourney;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Builder;
