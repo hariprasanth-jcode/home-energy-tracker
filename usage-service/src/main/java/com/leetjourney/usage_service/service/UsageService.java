@@ -10,8 +10,8 @@ import com.leetjourney.usage_service.client.DeviceClient;
 import com.leetjourney.usage_service.client.UserClient;
 import com.leetjourney.usage_service.dto.DeviceDto;
 import com.leetjourney.usage_service.dto.UserDto;
-import com.leetjourney.usage_service.kafka.event.AlertingEvent;
-import com.leetjourney.usage_service.kafka.event.EnergyUsageEvent;
+import com.leetjourney.kafka.event.AlertingEvent;
+import com.leetjourney.EnergyUsageEvent;
 import com.leetjourney.usage_service.model.DeviceEnergy;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
@@ -25,7 +25,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 @Service
